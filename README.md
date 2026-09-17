@@ -1,93 +1,112 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="Polarco — Filipe Fabiani. Código, curiosidade e projetos que saem do papel." width="100%" />
+  <img src="./assets/banner.svg" alt="Filipe Fabiani — Polarco. Desenvolvimento, automação e experimentação aplicada." width="100%" />
 </p>
 
 <p align="center">
-  <em>“Just a random guy making random things.”</em><br />
-  <sub>Às vezes é um app. Às vezes é um plugin. Às vezes é um PS Vita.</sub>
-</p>
-
-<p align="center">
-  <a href="https://github.com/polarco?tab=repositories"><strong>Meus projetos</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://github.com/frssolutionstech-eng"><strong>FRSTech</strong></a>
-  &nbsp; · &nbsp;
-  <a href="https://frstech.com.br/"><strong>Trabalho &amp; contato</strong></a>
+  <a href="#sobre"><strong>Sobre</strong></a> &nbsp; / &nbsp;
+  <a href="#projetos"><strong>Projetos</strong></a> &nbsp; / &nbsp;
+  <a href="#tecnologias"><strong>Tecnologias</strong></a> &nbsp; / &nbsp;
+  <a href="https://frstech.com.br/"><strong>Trabalho &amp; contato ↗</strong></a>
 </p>
 
 <br />
 
-### Oi, eu sou o Filipe 👋
+<a id="sobre"></a>
+### 01 / Sobre
 
-Também conhecido como **Polarco**. Gosto de explorar tecnologia construindo coisas: ferramentas para o dia a dia, experiências com IA, utilitários para servidores e projetos para jogos e portáteis.
+Sou **Filipe Fabiani**, conhecido como **Polarco**. Desenvolvo aplicações e ferramentas que conectam software, automação e infraestrutura. Meus projetos vão de interfaces web e aplicações desktop a plugins para jogos e homebrew para PS Vita.
 
-Por aqui, uma ideia pode começar numa necessidade pequena e acabar virando mais um repositório.
+Gosto de entender o problema por inteiro: a experiência de quem usa, os processos por trás da interface e os sistemas que fazem tudo funcionar.
 
-### Alguns projetos para conhecer
+**Neste perfil:** projetos pessoais, ferramentas e experimentos.  
+**Na [FRSTech](https://github.com/frssolutionstech-eng):** sistemas sob medida, automações e integrações para empresas.
+
+<br />
+
+<a id="projetos"></a>
+### 02 / Projetos selecionados
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🎮 [Moonlight Tailscale · PS Vita](https://github.com/polarco/moonlight-tailscale-vita)**
+<a href="https://github.com/polarco/moonlight-tailscale-vita"><img src="./assets/project-moonlight.svg" width="100%" alt="Moonlight para PS Vita — homebrew e redes" /></a>
 
-Streaming de PC no Vita com um túnel WireGuard dentro do aplicativo. Um encontro entre homebrew, redes e jogos.
+**Streaming e redes no portátil.** Cliente experimental com WireGuard e lwIP dentro da aplicação.
 
-<sub>C · VitaSDK · WireGuard · lwIP</sub><br />
-<sub>Experimental: streaming em LAN validado; streaming remoto ainda em validação.</sub>
+`C` `VitaSDK` `WireGuard`
+
+<sub>Streaming em LAN validado; streaming remoto ainda em validação.</sub>
+
+**[Explorar projeto →](https://github.com/polarco/moonlight-tailscale-vita)**
 
 </td>
 <td width="50%" valign="top">
 
-**🎛️ [Maestro](https://github.com/polarco/maestro)**
+<a href="https://github.com/polarco/maestro"><img src="./assets/project-maestro.svg" width="100%" alt="Maestro — aplicação desktop para agentes de IA" /></a>
 
-Central desktop local-first para conversar com agentes de IA, organizar planos e coordenar o trabalho em projetos.
+**Um workspace para agentes de IA.** Aplicação desktop local-first para conversas, planejamento e coordenação de tarefas.
 
-<sub>TypeScript · React · Electron</sub><br />
+`TypeScript` `React` `Electron`
+
 <sub>MVP em evolução.</sub>
+
+**[Explorar projeto →](https://github.com/polarco/maestro)**
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**🧊 [PolarUtilities](https://github.com/polarco/PolarUtilities)**
+<a href="https://github.com/polarco/PolarUtilities"><img src="./assets/project-utilities.svg" width="100%" alt="PolarUtilities — plugin Java para Minecraft" /></a>
 
-Plugin modular para servidores Minecraft: TPA, homes, warps, spawn e menus para jogadores e administradores.
+**Utilidades para servidores Minecraft.** Plugin modular com TPA, homes, warps, spawn e menus de administração.
 
-<sub>Java · Paper · Minecraft</sub>
+`Java` `Paper` `Minecraft`
+
+**[Explorar projeto →](https://github.com/polarco/PolarUtilities)**
 
 </td>
 <td width="50%" valign="top">
 
-**🖥️ [Painel de Controle](https://github.com/polarco/painel-de-controle)**
+<a href="https://github.com/polarco/painel-de-controle"><img src="./assets/project-linux.svg" width="100%" alt="Painel de Controle — serviços Linux e containers" /></a>
 
-Interface web para acompanhar serviços Linux, containers Docker, processos e logs em um só lugar.
+**Visibilidade sobre serviços Linux.** Interface web para acompanhar serviços, containers, processos e logs.
 
-<sub>JavaScript · Node.js · Linux · Docker</sub>
+`JavaScript` `Node.js` `Docker`
+
+**[Explorar projeto →](https://github.com/polarco/painel-de-controle)**
 
 </td>
 </tr>
 </table>
 
-Também exploro diagnósticos de hardware no **[VitaTester](https://github.com/polarco/VitaTester)** — um fork do projeto de SMOKE, com testes de entrada, stress e scanner. A validação física das alterações continua em andamento.
+**Também no laboratório:** [VitaTester](https://github.com/polarco/VitaTester), fork do projeto de SMOKE com testes de entrada, stress e scanner de hardware. A validação física das alterações continua em andamento.
 
-### O que você vai encontrar por aqui
+[Ver todos os repositórios ↗](https://github.com/polarco?tab=repositories)
 
-**Homebrew & jogos** — PS Vita, streaming e ferramentas para Minecraft.  
-**IA & automação** — agentes, aplicações desktop e fluxos de trabalho.  
-**Linux & infraestrutura** — serviços, containers e ferramentas de administração.
+<br />
 
-### Linguagens e ferramentas dos meus projetos
+<a id="tecnologias"></a>
+### 03 / Tecnologias nos meus projetos
 
-`TypeScript` · `JavaScript` · `Python` · `C` · `Java`  
-`React` · `Electron` · `Node.js` · `Linux` · `Docker` · `Git`
+<img src="./assets/toolkit.svg" width="100%" alt="TypeScript, JavaScript, Python, C, Java, React, Electron, Node.js, Linux e Docker" />
 
----
+| Área | Onde aplico |
+| :--- | :--- |
+| **Aplicações & interfaces** | Sistemas web, ferramentas desktop e experiências de uso. |
+| **Automação & infraestrutura** | Agentes de IA, administração de serviços e containers. |
+| **Homebrew & jogos** | PS Vita, streaming, diagnóstico de hardware e plugins Minecraft. |
 
-<p align="center">
-  <strong>Encontrou algo útil ou teve uma ideia?</strong><br />
-  Abra uma issue no projeto — sugestões e relatos de problemas são bem-vindos.
-</p>
+<br />
 
-<p align="center"><sub>Filipe Fabiani · Polarco · Brasil</sub></p>
+### 04 / Vamos conversar
+
+**Sobre um projeto open source?** Abra uma issue no repositório correspondente.  
+**Sobre uma solução para sua empresa?** Conheça a **[FRSTech](https://frstech.com.br/)**.
+
+<br />
+
+<img src="./assets/footer.svg" width="100%" alt="Curiosidade para explorar. Código para construir. Filipe Fabiani / Polarco." />
+
+<p align="center"><sub>Um pouco do espírito original continua por aqui: “Just a random guy making random things.”</sub></p>
